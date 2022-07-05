@@ -1,13 +1,15 @@
 <template>
 <navbar/>
-  <router-view/>
-  
+<landing/>
+<router-view/>
 </template>
 <script>
 import navbar from "./components/navbar.vue";
+import landing from "./components/landingSection.vue";
 export default{
   components:{
     navbar,
+    landing,
   }
 }
 </script>
