@@ -101,6 +101,7 @@
             <img src="https://raw.githubusercontent.com/Abdool-Zaid/vue-1/main/gracefeelsretreat/src/assets/carousel/download%20(97).jpg"/>
             <img src="https://raw.githubusercontent.com/Abdool-Zaid/vue-1/main/gracefeelsretreat/src/assets/carousel/download%20(98).jpg"/>
             <img src="https://raw.githubusercontent.com/Abdool-Zaid/vue-1/main/gracefeelsretreat/src/assets/carousel/download%20(99).jpg"/>
+            <img src="https://raw.githubusercontent.com/Abdool-Zaid/vue-1/main/gracefeelsretreat/src/assets/carousel/download%20(100).jpg"/>
         </marquee>
     </div>
 </template>

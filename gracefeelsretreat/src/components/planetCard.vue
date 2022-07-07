@@ -1,18 +1,18 @@
 <template >
-    <div class="planetCard">
+    <router-link :to="{ name: 'planetDetails', params: { id: planet.id } }" class="planetCard">
     <img :src="planet.image"    class=planetImage/>
 
-        <img :src="planet.populationURL" class="planetPopulation"/>
-      <h2>{{ planet.atmosphere }}</h2>
-      <h2>{{ planet.moons }}</h2>
-      <h2>{{ planet.tempRange }}</h2>
-      <h2>{{ planet.water }}</h2>
-      <h2>{{ planet.size }}</h2>
-      <h2>{{ planet.population }}</h2>
+        <!-- <img :src="planet.populationURL" class="planetPopulation"/> -->
+      <h1>{{ planet.name }}</h1>
+      <!-- <h2>{{ planet.atmosphere }}</h2> -->
+      <h2> amount of moons: {{ planet.moons }}</h2>
+      <!-- <h2>{{ planet.tempRange }}</h2> -->
+      <!-- <h2>{{ planet.water }}</h2> -->
+      <h2>size: {{ planet.size }}</h2>
+      <!-- <h2>{{ planet.population }}</h2> -->
       
-      <h2>{{ planet.name }}</h2>
-      <h2>{{ planet.price }}</h2>
-    </div>
+      <!-- <h2>{{ planet.price }}</h2> -->
+    </router-link>
         
 
 </template>
@@ -31,5 +31,9 @@ export default {
 background: #efefef;
 box-shadow:  20px 20px 60px #cbcbcb,
              -20px -20px 60px #ffffff;
+}
+.planetCard >img{
+    border-radius: 50px;
+
 }
 </style>
